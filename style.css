@@ -11,16 +11,21 @@
   font-style: normal;
 }
 
+.max-width{
+    max-width: 1140px;
+}
+
+/* Navigation style start */
 nav{
     background-image: url("images/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 120px;
 }
 
 .nav-top{
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
     margin: 0 auto;
     padding: 50px 0px;
     margin-bottom: 150px;
@@ -34,10 +39,17 @@ nav{
 
 .btn{
     color: white;
+    font-size: 16px;
+    font-weight: bold;
     padding: 12px 35px;
     background-color: blue;
     border: none;
     border-radius: 10px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: tomato;
 }
 
 .nav-bottom{
@@ -54,4 +66,28 @@ nav{
 
 .nav-bottom .btn{
     margin-bottom: 200px;
+}
+/* Navigation style end */
+
+/* Banner section style start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.banner p{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.banner-img img{
+    border-radius: 48px;
 }
