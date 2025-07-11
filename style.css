@@ -161,3 +161,25 @@ nav{
 
 
 /* Feedback Section end */
+
+
+/* Focus Section start */
+
+.focus{
+    background-color: white;
+    border-radius: 15px;
+    padding: 70px 150px;
+}
+
+.focus-info{
+    text-align: center;
+}
+.focus-title h2, p, button{
+    margin-bottom: 20px;
+}
+.focus-img img{
+    border-radius: 48px;
+}
+/* Focus Section end */
+
+
