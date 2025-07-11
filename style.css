@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: aliceblue;
+}
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -13,6 +16,8 @@
 
 .max-width{
     max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
 }
 
 /* Navigation style start */
@@ -26,9 +31,7 @@ nav{
 .nav-top{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 50px 0px;
-    margin-bottom: 150px;
 }
 
 .nav-home{
@@ -76,7 +79,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     margin-bottom: 120px;
 }
 
@@ -101,14 +103,13 @@ nav{
 .productive-users{
     background-color: #c6c4f7;
     border-radius: 24px;
-    margin: 0 auto;
     padding: 50px 80px;
-    margin-bottom: 130px;
 }
 
 .section-items{
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
 }
 
 .section-items .item h4{
@@ -124,3 +125,39 @@ nav{
     margin-bottom: 40px;
 }
 /* Productive User section style end */
+
+/* Feedback Section start */
+
+.feedback-title h2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.feedback-reviews{
+    background-color: white;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+.feedback-star, .review-title{
+    margin-bottom: 24px;
+}
+.reviewer{
+    display: flex;
+    gap: 10px;
+}
+
+.reviewer img{
+    border-radius: 50%;
+}
+
+
+/* Feedback Section end */
