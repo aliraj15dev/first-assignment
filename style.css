@@ -126,7 +126,7 @@ nav{
 }
 /* Productive User section style end */
 
-/* Feedback Section start */
+/* Feedback Section style start */
 
 .feedback-title h2{
     font-size: 42px;
@@ -160,10 +160,10 @@ nav{
 }
 
 
-/* Feedback Section end */
+/* Feedback Section style end */
 
 
-/* Focus Section start */
+/* Focus Section style start */
 
 .focus{
     background-color: white;
@@ -180,6 +180,41 @@ nav{
 .focus-img img{
     border-radius: 48px;
 }
-/* Focus Section end */
+/* Focus Section style end */
+
+/* form section style start */
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.form-title{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.form-info label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type="text"], input[type="email"]{
+    width: 500px;
+    height: 70px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+}
 
 
+/* form section style start */
