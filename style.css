@@ -188,12 +188,14 @@ nav{
 .form{
     display: flex;
     justify-content: space-between;
+    gap: 130px;
     align-items: center;
     padding: 70px 0;
+    border: 2px solid red;
 }
 
 .form-title{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
 }
 
@@ -212,6 +214,8 @@ input[type="text"], input[type="email"]{
 }
 
 textarea{
+    width: 500px;
+    height: 140px;
     padding: 20px 32px;
     border: none;
     border-radius: 10px;
