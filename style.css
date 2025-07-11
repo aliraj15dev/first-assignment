@@ -168,13 +168,11 @@ nav{
 
 .focus{
     background-color: white;
+    text-align: center;
     border-radius: 15px;
     padding: 70px 150px;
 }
 
-.focus-info{
-    text-align: center;
-}
 .focus-title h2, p, button{
     margin-bottom: 20px;
 }
