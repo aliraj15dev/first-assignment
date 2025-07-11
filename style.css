@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #f0f5f7;
 }
 
 .raleway-font {
@@ -139,19 +139,20 @@ nav{
 .feedback{
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 10px;
 }
 .feedback-reviews{
     background-color: white;
     border-radius: 24px;
-    padding: 20px;
+    padding: 24px;
 }
 
-.feedback-star, .review-title{
+.feedback-star, .review-title h3{
     margin-bottom: 24px;
 }
 .reviewer{
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -214,7 +215,43 @@ textarea{
     padding: 20px 32px;
     border: none;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-info .btn{
+    padding: 20px 200px;
+}
+
+/* form section style start */
+
+/* footer style start */
+
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: blue;
+}
+
+.footer-services ul li{
+    list-style: none;
+}
+.footer-services ul{
+    display: flex;
+    gap: 20px;
+}
+.footer-services li a{
+    text-decoration: none;
+    color: black;
 }
 
 
-/* form section style start */
+/* footer style end */
